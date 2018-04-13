@@ -4,11 +4,13 @@ title:  "Welcome to Jekyll!"
 date:   2018-04-13 22:52:57 +0800
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+在 `_posts` 文件夹下面会找到这篇文章的源代码. 修改它重新提交到github就可以改变文章的内容了.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+新增文章的方法
 
-Jekyll also offers powerful support for code snippets:
+在 `_posts` 文件夹下面新建一个文件，需要遵循 `YYYY-MM-DD-文章的名字.markdown` 这样的格式。具体可以参照这个文章的源码。
+
+Jekyll 也支持代码高亮：
 
 {% highlight ruby %}
 def print_hi(name)
@@ -18,8 +20,4 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+阅读[jekyll](https://www.jekyll.com.cn/docs/frontmatter/)的文档以获得更多信息  .
