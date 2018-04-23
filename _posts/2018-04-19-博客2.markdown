@@ -24,9 +24,11 @@ categories: 基础
 
  法1
 
- `function collect_last_element(collection) {
+ ```
+ function collect_last_element(collection) {
   return collection[collection.length-1]
-}`
+}
+```
 
  法2
 
