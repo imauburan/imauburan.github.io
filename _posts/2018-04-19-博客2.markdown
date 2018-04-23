@@ -1,0 +1,36 @@
+---
+layout: post
+title:  "博客2.初学javascript心得体会"
+date:   2018-04-15 18:08:22 +0800
+categories: 基础
+---
+## 知识点
+- 定义一个数组
+- 数组中的push操作
+- 弹出数组中最后一个元素的两种方法             
+- 形参实参的区别
+## 内容
+ 1. 定义数组
+
+  定义一个数组的方法有三种，我最长用的是new Array();根据结果的要求来判断输出的类型，再去定义是数组还是字符串
+ 2. 数组中的push操作
+
+ `var arr=new Array();`
+
+ `arr.push();`
+
+ push()是向数组的末尾添加一个或更多元素，并返回新的长度。
+ 3. 弹出数组中最后一个元素的两种方法  
+
+ 法1
+
+ `function collect_last_element(collection) {
+  return collection[collection.length-1]
+}`
+
+ 法2
+ 
+ collection.pop();
+ 4. 形参实参的区别
+
+ 我的理解是**定义函数用形参，调用函数用实参**
