@@ -7,40 +7,25 @@ categories: 基础
 ## 知识点
 - 定义一个数组
 - 数组中的push操作
-- 弹出数组中最后一个元素的两种方法             
--
+- 弹出数组中最后一个元素的两种方法
 
 ## 内容
  1. 定义数组
-
-  定义一个数组的方法有三种，
-  ```
-new Array();
-new Array(size);
-new Array(element0, element1, ..., elementn);
-```
-  我最常用的是new Array();根据结果的要求来判断输出的类型，再去定义是数组还是字符串
-
+    定义一个数组的方法有三种，
+    ```
+    new Array();
+    new Array(size);
+    new Array(element0, element1, ..., elementn);
+    ```
+    我最常用的是new Array();根据结果的要求来判断输出的类型，再去定义是数组还是字符串
  2. 数组中的push操作
-
- `var arr=new Array();`
-
- `arr.push();`
-
- push()是向数组的末尾添加一个或更多元素，并返回新的长度。
-
+     ```
+     var arr=new Array();
+     arr.push();
+     ```
+     push()是向数组的末尾添加一个或更多元素，并返回新的长度。
  3. 弹出数组中最后一个元素的两种方法  
-
- 法1
-
- `
-  return collection[collection.length-1]
-`
-
- 法2
-
- `collection.pop();`
- 
+     - 法1: `collection[collection.length-1]`
+     - 法2: `collection.pop();`
  4. 形参实参的区别
-
- 我的理解是**定义函数用形参，调用函数用实参**
+    我的理解是**定义函数用形参，调用函数用实参**
