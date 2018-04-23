@@ -29,8 +29,8 @@ categories: 基础
 }`
 
  法2
- 
- collection.pop();
+
+ `collection.pop();`
  4. 形参实参的区别
 
  我的理解是**定义函数用形参，调用函数用实参**
